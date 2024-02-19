@@ -1,17 +1,17 @@
 ## Table of Contents
 1. [Description](#description)
-2. [Package dependencies](#package)
+2. [Package_dependencies](#package_dependencies)
 3. [Architecture](#architecture)
-   1. [Network](#network)
-   2. [UI](#UI)
-   3. [Architecture](#Architecture)
 4. [Tehnologi](#tehnologi)
+   - [Network](#etwork)
+   - [UI](#ui)
+   - [Architecture](#architecture)
 
 
-## Weather App
+## Description
 <p>A simple project that show the weather in current place of user.</p>
 
-## Package dependencies
+## Package_dependencies
 
 Weather App is a Swift package that provides...
 
