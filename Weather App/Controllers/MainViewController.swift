@@ -15,9 +15,6 @@ final class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view = itemsView as? UIView
-        
-        //FIXME: should be called from View
-        //currentLocationCoordinates()
     }
     
     private let manager: HelperManager
@@ -169,6 +166,7 @@ extension MainViewController {
     }
 }
 
+//MARK: - CLLocationManagerDelegate
 extension MainViewController: CLLocationManagerDelegate {
     
         func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {

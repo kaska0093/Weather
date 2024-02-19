@@ -101,23 +101,3 @@ extension ModelManager: ModelInputProtocol {
         }
     }  
 }
-
-
-//var suggestions: [String] = []
-
-
-//        dadata?.suggestAddress("text"){ r in
-//            DispatchQueue.main.async {
-//
-//                switch r{
-//                case .success(let dadataData):
-//                    print(dadataData)
-//                    if let dsr = dadataData.suggestions?.compactMap({ $0.value }) {
-//                        suggestions = dsr
-//                    }
-//                case .failure(let e):
-//                    print(e)
-//                    suggestions = [e.localizedDescription]
-//                }
-//            }
-//        }

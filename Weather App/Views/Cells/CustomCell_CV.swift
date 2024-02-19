@@ -7,12 +7,13 @@
 
 import UIKit
 
-class CustomCell_CV: UICollectionViewCell {
+final class CustomCell_CV: UICollectionViewCell {
     override init(frame: CGRect) {
         super.init(frame: frame)
         inizialization()
     }
     
+    @available(*, unavailable)
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }

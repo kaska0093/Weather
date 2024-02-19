@@ -8,7 +8,7 @@
 import Foundation
 
 
-class HelperManager {
+final class HelperManager {
     
     func getWeekDay(time: String) -> String {
         
@@ -55,6 +55,7 @@ class HelperManager {
         var weatherIconName: String!
         switch code {
         case 0: weatherIconName = "d000"
+        case 1: weatherIconName = "d100"
         case 2: weatherIconName = "d100"
         case 3: weatherIconName = "d200"
             //Fog and depositing rime fog
@@ -78,7 +79,7 @@ class HelperManager {
         case 96, 99: weatherIconName = "d422" //case 96, 9: = "" //9 *    Thunderstorm with slight and heavy hail
 
         default:
-            weatherIconName = "exclamationmark.square"
+            weatherIconName = "default"
         }
         return weatherIconName
     }

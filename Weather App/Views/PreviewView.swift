@@ -67,7 +67,7 @@ class PreviewView: UIView {
     lazy var stack: UIStackView = {
        var stack = UIStackView()
         stack.layer.opacity = 0.9
-        stack.layer.backgroundColor = #colorLiteral(red: 0.8549019694, green: 0.250980407, blue: 0.4784313738, alpha: 1)
+        stack.layer.backgroundColor = #colorLiteral(red: 0.1764705926, green: 0.4980392158, blue: 0.7568627596, alpha: 1)
         stack.layer.cornerRadius = 10
         
         stack.layer.shadowColor = UIColor.black.cgColor

@@ -203,10 +203,10 @@ private extension MainView {
         
         NSLayoutConstraint.activate([
             weatherStack.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 20),
-            weatherStack.trailingAnchor.constraint(equalTo: geoStack.leadingAnchor, constant: -20),
+            weatherStack.widthAnchor.constraint(equalToConstant: 180),
             weatherStack.topAnchor.constraint(equalTo: self.safeAreaLayoutGuide.topAnchor, constant: 20),
             
-            geoStack.leadingAnchor.constraint(equalTo: weatherStack.trailingAnchor, constant: 20),
+            geoStack.leadingAnchor.constraint(equalTo: weatherStack.trailingAnchor, constant: 15),
             geoStack.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -10),
             geoStack.topAnchor.constraint(equalTo: self.safeAreaLayoutGuide.topAnchor, constant: 20),
             
@@ -260,6 +260,7 @@ extension MainView: ControllerOutputProtocol {
             pressureLabel.text = "Pressure \(String(describing: weather.current.pressure_msl)) kPa"
             windspeedLabel.text = "Wind speed \(String(describing: weather.current.windspeed_10m)) m/s"
             //FIXME: - HelperManager
+            print(weather.current.weathercode)
             let image = UIImage(named: HelperManager().getIconWeather(code: weather.current.weathercode))
             weatherIconImage.image = image
         }
