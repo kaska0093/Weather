@@ -51,12 +51,11 @@ The project demonstrated the skill of using
   - Using and applying additional managers-file
   - Сoding style
 
-![](image/DetailScreen.jpg)
-![](image/MainScreen.jpg)
-
-<p float="left">
-  <img src="image/DetailScreen.jpg" width="100" />
-  <img src="image/MainScreen.jpg" width="100" /> 
+MainScreen.jpg
+<p style="display:flex; justify-content:space-around;">
+  <img src="image/MainScreen.jpg" style="margin-right: 10px" width="250" />
+  <img src="image/DetailScreen.jpg" style="margin-left: 10px" width="250" /> 
 </p>
+
 
 
