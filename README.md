@@ -51,10 +51,12 @@ The project demonstrated the skill of using
   - Using and applying additional managers-file
   - Сoding style
 
-
-markdown
 ![](image/DetailScreen.jpg)
 ![](image/MainScreen.jpg)
 
+<p float="left">
+  <img src="image/DetailScreen.jpg" width="100" />
+  <img src="image/MainScreen.jpg" width="100" /> 
+</p>
 
 
