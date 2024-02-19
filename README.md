@@ -52,3 +52,8 @@ The project demonstrated the skill of using
   - Сoding style
 
 
+```markdown
+![Пример изображения](image/DetailScreen.jpg)
+```
+
+
